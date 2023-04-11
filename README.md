@@ -30,16 +30,21 @@ The workers with low JobLevel, MonthlyIncome, YearAtCompany, and TotalWorkingYea
 
 BusinessTravel:
 The workers who travel a lot are more likely to quit than other employees.
+
 Department:
 The workers in Research & Development are more likely to stay than the workers in other departments.
+
 EducationField:
 The workers with Human Resources and Technical Degrees are more likely to quit than employees from other fields of education.
+
 Gender :
 The Male are more likely to quit.
 JobRole:
 The workers in Laboratory Technician, Sales Representative, and Human Resources are more likely to quit the workers in other positions.
+
 MaritalStatus:
 The workers who have Single marital status are more likely to quit the Married, and Divorced.
+
 OverTime:
 The workers who work more hours are likely to quit then others.
 
