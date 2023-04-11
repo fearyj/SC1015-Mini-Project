@@ -5,7 +5,7 @@ This is the mini project for NTU-SC1015 (Introduction to Data Science and Artifi
 Job attrition can be a significant challenge for companies, but it is not inevitable. By understanding the causes of job attrition and taking steps to prevent it, companies can create a more stable, productive, and successful workplace for their employees.
 
 ## Problem Formulation
-Dataset: Kaggle 
+Dataset: [Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) 
 
 
 
