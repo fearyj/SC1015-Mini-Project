@@ -15,10 +15,15 @@ In this section of the project, we prepped and cleaned the dataset to help us an
 
 We performed the following:
 Initial Variables Dropping: 5 of the variables are removed. They contain either only 1 unique value or 1470 unique values.
+
 Clustering Categorical Data: Grouping appropriate data into “High” and “Low”.
+
 Encoding Categorical Variables: Using One-Hot Key approach, variables that are categorical in nature are split into numerical data.
+
 Secondary Variables Dropping: 9 pairs of the variables are mutually exclusive to each other. 1 variable from each pair is removed.
+
 Data Padding: Since there is a more number of “No” than “Yes” for the variable “Attrition”. Upsampling is done to match pad the number of “Yes”.
+
 Prepping Variables: Data of some variables were normalized and inverted for easy computation of weightage of the variables.
 
 ## Exploratory Data Analysis
@@ -37,7 +42,7 @@ The workers in Research & Development are more likely to stay than the workers i
 EducationField:
 The workers with Human Resources and Technical Degrees are more likely to quit than employees from other fields of education.
 
-Gender :
+Gender:
 The Male are more likely to quit.
 JobRole:
 The workers in Laboratory Technician, Sales Representative, and Human Resources are more likely to quit the workers in other positions.
@@ -50,20 +55,28 @@ The workers who work more hours are likely to quit then others.
 
 ## Data Process
 Plot attrition on barplot to see the ratio of “Yes” and “No”
+
 Check for unique values and its total count for all variables
+
 Grouping similar values i.e. “High” and “Very High” as “High”for easy analysis  of categorical variables 
+
 Calculating the moderated values based on the weighted variables gathered from XGBoost.
 
 ## Machine Learning
 Decision Tree Classifier
+
 Upsampling Decision Tree Classifier
+
 Random Forest
+
 XGBoost
 
 
 ## Insights and Conclusion
 The Decision Tree was able to identify the important variables that causes employee attrition
+
 XGBoost was able to provide the weightage and the significance of the variables
+
 Creating an accurate model for companies to use requires both the Decision Tree Classifier and XGBoost, which are necessary to determine the important factors and their corresponding weightage.
 
 ## References
